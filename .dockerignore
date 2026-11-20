@@ -1,0 +1,9 @@
+**
+!Dockerfile
+!pyproject.toml
+!uv.lock
+!app/
+!app/*.py
+!data/
+!data/schema.sql
+!data/program.json

@@ -1,0 +1,1291 @@
+{
+  "source": "https://analystdays.ru/ru/program/149939",
+  "rooms": [
+    {
+      "id": "A",
+      "name": "Зал A"
+    },
+    {
+      "id": "B",
+      "name": "Зал B"
+    },
+    {
+      "id": "C",
+      "name": "Зал C"
+    },
+    {
+      "id": "D",
+      "name": "Зал D"
+    }
+  ],
+  "topics": [
+    {
+      "id": "3425",
+      "name": "Клиенты и кейсы"
+    },
+    {
+      "id": "3426",
+      "name": "Требования"
+    },
+    {
+      "id": "3427",
+      "name": "Архитектура"
+    },
+    {
+      "id": "3428",
+      "name": "Процессы"
+    },
+    {
+      "id": "3429",
+      "name": "Инструменты"
+    },
+    {
+      "id": "3430",
+      "name": "Специализированные навыки"
+    },
+    {
+      "id": "3431",
+      "name": "HR, развитие карьеры и профессиональный рост"
+    },
+    {
+      "id": "3432",
+      "name": "Аналитик как часть команды"
+    },
+    {
+      "id": "3433",
+      "name": "Работа с данными"
+    },
+    {
+      "id": "3434",
+      "name": "UX"
+    },
+    {
+      "id": "3435",
+      "name": "Методологии"
+    },
+    {
+      "id": "3436",
+      "name": "Техники"
+    },
+    {
+      "id": "3437",
+      "name": "Прочее"
+    },
+    {
+      "id": "ai",
+      "name": "ИИ"
+    },
+    {
+      "id": "hackathon-ai",
+      "name": "Хакатон (ИИ)"
+    }
+  ],
+  "entries": [
+    {
+      "id": "event-20-0900-all",
+      "kind": "service",
+      "title": "Регистрация, утренний чай/кофе",
+      "speakers": null,
+      "day": "2026-11-20",
+      "starts_at": "09:00",
+      "ends_at": "10:00",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-20-1000-all",
+      "kind": "service",
+      "title": "Открытие конференции. Секция А",
+      "speakers": null,
+      "day": "2026-11-20",
+      "starts_at": "10:00",
+      "ends_at": "10:30",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-20-1030-h",
+      "kind": "break",
+      "title": "Технический перерыв площадки хакатона",
+      "speakers": null,
+      "day": "2026-11-20",
+      "starts_at": "10:30",
+      "ends_at": "11:10",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150480",
+      "kind": "talk",
+      "title": "Гомункул в матрице: препарируем машинный разум в поисках цифровой души",
+      "speakers": "Тамара Ушурова",
+      "day": "2026-11-20",
+      "starts_at": "10:30",
+      "ends_at": "11:10",
+      "room_id": "A",
+      "topic_ids": [
+        "ai"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151109",
+      "kind": "talk",
+      "title": "Удалить нельзя оставить: как измерить стоимость темного паттерна, пока клиент не удалил приложение",
+      "speakers": "Анна Райкова",
+      "day": "2026-11-20",
+      "starts_at": "10:30",
+      "ends_at": "11:10",
+      "room_id": "B",
+      "topic_ids": [
+        "3434"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150194",
+      "kind": "talk",
+      "title": "Как приручить RabbitMQ, или не  Kafka единой",
+      "speakers": "Сергей Громов",
+      "day": "2026-11-20",
+      "starts_at": "10:30",
+      "ends_at": "11:10",
+      "room_id": "C",
+      "topic_ids": [
+        "3429"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150630",
+      "kind": "blitz",
+      "title": "«Я, аналитик»: три закона робототехники, по которым я работаю",
+      "speakers": "Ольга Грошева",
+      "day": "2026-11-20",
+      "starts_at": "10:30",
+      "ends_at": "10:50",
+      "room_id": "D",
+      "topic_ids": [
+        "3436"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151096",
+      "kind": "blitz",
+      "title": "Как не купить «кота в мешке»: трансформация процесса подбора джунов",
+      "speakers": "Наталья Бизякина",
+      "day": "2026-11-20",
+      "starts_at": "10:50",
+      "ends_at": "11:10",
+      "room_id": "D",
+      "topic_ids": [
+        "3431"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-20-1110-all",
+      "kind": "break",
+      "title": "Перерыв",
+      "speakers": null,
+      "day": "2026-11-20",
+      "starts_at": "11:10",
+      "ends_at": "11:40",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-20-1140-h",
+      "kind": "break",
+      "title": "Технический перерыв площадки хакатона",
+      "speakers": null,
+      "day": "2026-11-20",
+      "starts_at": "11:40",
+      "ends_at": "12:20",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-20-1140-A",
+      "kind": "hackathon",
+      "title": "Хакатон: Эволюция ИТ-решения от задачи до работающего сайта",
+      "speakers": "Иван Хахарев, Татьяна Маркина",
+      "day": "2026-11-20",
+      "starts_at": "11:40",
+      "ends_at": "12:20",
+      "room_id": "A",
+      "topic_ids": [
+        "hackathon-ai"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151097",
+      "kind": "talk",
+      "title": "Redis - уже не только лишь кэш",
+      "speakers": "Кирилл Егоркин",
+      "day": "2026-11-20",
+      "starts_at": "11:40",
+      "ends_at": "12:20",
+      "room_id": "B",
+      "topic_ids": [
+        "3433"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150749",
+      "kind": "talk",
+      "title": "Разработка на платформе – как достичь эффективности",
+      "speakers": "Максим Цепков",
+      "day": "2026-11-20",
+      "starts_at": "11:40",
+      "ends_at": "12:20",
+      "room_id": "C",
+      "topic_ids": [
+        "3428"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150660",
+      "kind": "workshop",
+      "title": "Создаем навык ИИ-агента на примере записей архитектурных решений ADRs",
+      "speakers": "Максим Смирнов",
+      "day": "2026-11-20",
+      "starts_at": "11:40",
+      "ends_at": "12:20",
+      "room_id": "D",
+      "topic_ids": [
+        "ai"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-20-1220-all",
+      "kind": "break",
+      "title": "Перерыв",
+      "speakers": null,
+      "day": "2026-11-20",
+      "starts_at": "12:20",
+      "ends_at": "12:50",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-20-1250-h",
+      "kind": "break",
+      "title": "Технический перерыв площадки хакатона",
+      "speakers": null,
+      "day": "2026-11-20",
+      "starts_at": "12:50",
+      "ends_at": "13:30",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150148",
+      "kind": "talk",
+      "title": "CJM для корпоративного продукта. Как мы нашли клад с ценными бизнес-требованиями",
+      "speakers": "Сергей Шаблонов",
+      "day": "2026-11-20",
+      "starts_at": "12:50",
+      "ends_at": "13:30",
+      "room_id": "A",
+      "topic_ids": [
+        "3426"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151101",
+      "kind": "blitz",
+      "title": "От недоверия к данным – к проверяемому результату. Как аналитик помогает проводить сложные изменения",
+      "speakers": "Каным Дюшемби кызы",
+      "day": "2026-11-20",
+      "starts_at": "12:50",
+      "ends_at": "13:10",
+      "room_id": "B",
+      "topic_ids": [
+        "3425"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-20-1250-C",
+      "kind": "break",
+      "title": "Обед. 1-я смена",
+      "speakers": null,
+      "day": "2026-11-20",
+      "starts_at": "12:50",
+      "ends_at": "13:30",
+      "room_id": "C",
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150660-2",
+      "kind": "workshop",
+      "title": "Создаем навык ИИ-агента на примере записей архитектурных решений ADRs",
+      "speakers": "Максим Смирнов",
+      "day": "2026-11-20",
+      "starts_at": "12:50",
+      "ends_at": "13:30",
+      "room_id": "D",
+      "topic_ids": [
+        "ai"
+      ],
+      "previous_part_id": "talk-150660"
+    },
+    {
+      "id": "talk-150538",
+      "kind": "blitz",
+      "title": "Микросервисы в логистике: как DDD и Event Storming помогли нам найти границы",
+      "speakers": "Елена Шутова",
+      "day": "2026-11-20",
+      "starts_at": "13:10",
+      "ends_at": "13:30",
+      "room_id": "B",
+      "topic_ids": [
+        "3429"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-20-1330-all",
+      "kind": "break",
+      "title": "Перерыв",
+      "speakers": null,
+      "day": "2026-11-20",
+      "starts_at": "13:30",
+      "ends_at": "14:00",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-20-1400-all",
+      "kind": "break",
+      "title": "Обед. 2-я смена",
+      "speakers": null,
+      "day": "2026-11-20",
+      "starts_at": "14:00",
+      "ends_at": "14:40",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151115",
+      "kind": "blitz",
+      "title": "Production-Driven Design: от MVP к устойчивой архитектуре",
+      "speakers": "Екатерина Тихомирова",
+      "day": "2026-11-20",
+      "starts_at": "14:00",
+      "ends_at": "14:20",
+      "room_id": "A",
+      "topic_ids": [
+        "3426"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150334",
+      "kind": "workshop",
+      "title": "Анатомия проблем: как аналитику начинать не с анализа, а с ...",
+      "speakers": "Сергей Хованов",
+      "day": "2026-11-20",
+      "starts_at": "14:00",
+      "ends_at": "14:40",
+      "room_id": "C",
+      "topic_ids": [
+        "3436"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150363",
+      "kind": "blitz",
+      "title": "Дихотомия требований…  или как «найти» сеньора в эпоху ИИ",
+      "speakers": "Антон Сюрин",
+      "day": "2026-11-20",
+      "starts_at": "14:20",
+      "ends_at": "14:40",
+      "room_id": "A",
+      "topic_ids": [
+        "3426"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-20-1440-all",
+      "kind": "break",
+      "title": "Перерыв",
+      "speakers": null,
+      "day": "2026-11-20",
+      "starts_at": "14:40",
+      "ends_at": "15:10",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-20-1510-h",
+      "kind": "hackathon",
+      "title": "Хакатон: работа в командах без трансляции и записи",
+      "speakers": null,
+      "day": "2026-11-20",
+      "starts_at": "15:10",
+      "ends_at": "18:30",
+      "room_id": null,
+      "topic_ids": [
+        "hackathon-ai"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150345",
+      "kind": "talk",
+      "title": "Почему анализ отказов не работает и как это исправить?",
+      "speakers": "Татьяна Голубева",
+      "day": "2026-11-20",
+      "starts_at": "15:10",
+      "ends_at": "15:50",
+      "room_id": "A",
+      "topic_ids": [
+        "3428"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150938",
+      "kind": "talk",
+      "title": "Docs-as-code на максималках. Миграция без боли (почти)",
+      "speakers": "Михаил Солдаткин",
+      "day": "2026-11-20",
+      "starts_at": "15:10",
+      "ends_at": "15:50",
+      "room_id": "B",
+      "topic_ids": [
+        "3429"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150334-2",
+      "kind": "workshop",
+      "title": "Анатомия проблем: как аналитику начинать не с анализа, а с ...",
+      "speakers": "Сергей Хованов",
+      "day": "2026-11-20",
+      "starts_at": "15:10",
+      "ends_at": "15:50",
+      "room_id": "C",
+      "topic_ids": [
+        "3436"
+      ],
+      "previous_part_id": "talk-150334"
+    },
+    {
+      "id": "talk-151103",
+      "kind": "blitz",
+      "title": "Погоняем? Зачем аналитику знать о Race Condition",
+      "speakers": "Софья Калинина",
+      "day": "2026-11-20",
+      "starts_at": "15:10",
+      "ends_at": "15:30",
+      "room_id": "D",
+      "topic_ids": [
+        "3427"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150389",
+      "kind": "blitz",
+      "title": "От аналитика до учителя, или как один проект перезапустил наши отношения с заказчиком",
+      "speakers": "Полина Кощеева",
+      "day": "2026-11-20",
+      "starts_at": "15:30",
+      "ends_at": "15:50",
+      "room_id": "D",
+      "topic_ids": [
+        "3432"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-20-1550-all",
+      "kind": "break",
+      "title": "Кофе-пауза",
+      "speakers": null,
+      "day": "2026-11-20",
+      "starts_at": "15:50",
+      "ends_at": "16:30",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150986",
+      "kind": "talk",
+      "title": "От системного мышления к архитектурному мышлению",
+      "speakers": "Анатолий Левенчук",
+      "day": "2026-11-20",
+      "starts_at": "16:30",
+      "ends_at": "17:10",
+      "room_id": "A",
+      "topic_ids": [
+        "3431"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150851",
+      "kind": "talk",
+      "title": "AI Факапы: как AI-агенты удаляют данные, тратят деньги и ломают продакшн",
+      "speakers": "Светлана Дергачева",
+      "day": "2026-11-20",
+      "starts_at": "16:30",
+      "ends_at": "17:10",
+      "room_id": "B",
+      "topic_ids": [
+        "ai"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151164",
+      "kind": "blitz",
+      "title": "Байесовский анализ:  prior и тараканы-метеорологи",
+      "speakers": "Олеся Норицына",
+      "day": "2026-11-20",
+      "starts_at": "16:30",
+      "ends_at": "16:50",
+      "room_id": "C",
+      "topic_ids": [
+        "3433"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151026",
+      "kind": "workshop",
+      "title": "Не горит, а плавится: блиц-диагностика стресса и выгорания для IT-аналитиков",
+      "speakers": "Екатерина Гордеева",
+      "day": "2026-11-20",
+      "starts_at": "16:30",
+      "ends_at": "17:10",
+      "room_id": "D",
+      "topic_ids": [
+        "3430"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151174",
+      "kind": "blitz",
+      "title": "Аналитик глазами продакта: как вместе принимать сложные решения",
+      "speakers": "Александр Шафер",
+      "day": "2026-11-20",
+      "starts_at": "16:50",
+      "ends_at": "17:10",
+      "room_id": "C",
+      "topic_ids": [
+        "3432"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-20-1710-all",
+      "kind": "service",
+      "title": "Разминка с тренером в секции А || Перерыв",
+      "speakers": null,
+      "day": "2026-11-20",
+      "starts_at": "17:10",
+      "ends_at": "17:50",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151148",
+      "kind": "talk",
+      "title": "Требования под контролем: как трассировка помогает избежать путаницы",
+      "speakers": "Наталья Козлова",
+      "day": "2026-11-20",
+      "starts_at": "17:50",
+      "ends_at": "18:30",
+      "room_id": "A",
+      "topic_ids": [
+        "3426"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150743",
+      "kind": "discussion",
+      "title": "«Я предупреждал» не алиби. Реестр рисков не снимает с вас ответственность",
+      "speakers": "Алёна Ивахнова",
+      "day": "2026-11-20",
+      "starts_at": "17:50",
+      "ends_at": "18:30",
+      "room_id": "B",
+      "topic_ids": [
+        "3432"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151083",
+      "kind": "talk",
+      "title": "Апгрейд, а не апокалипсис: процессы аналитиков в эпоху ИИ",
+      "speakers": "Ольга Кулапина",
+      "day": "2026-11-20",
+      "starts_at": "17:50",
+      "ends_at": "18:30",
+      "room_id": "C",
+      "topic_ids": [
+        "3435"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151026-2",
+      "kind": "workshop",
+      "title": "Не горит, а плавится: блиц-диагностика стресса и выгорания для IT-аналитиков",
+      "speakers": "Екатерина Гордеева",
+      "day": "2026-11-20",
+      "starts_at": "17:50",
+      "ends_at": "18:30",
+      "room_id": "D",
+      "topic_ids": [
+        "3430"
+      ],
+      "previous_part_id": "talk-151026"
+    },
+    {
+      "id": "event-20-1840-all",
+      "kind": "service",
+      "title": "Вечерняя развлекательная программа. Ресторан 2й этаж",
+      "speakers": null,
+      "day": "2026-11-20",
+      "starts_at": "18:40",
+      "ends_at": "19:10",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-21-1000-all",
+      "kind": "break",
+      "title": "Утренний чай/кофе",
+      "speakers": null,
+      "day": "2026-11-21",
+      "starts_at": "10:00",
+      "ends_at": "10:30",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-21-1030-h",
+      "kind": "hackathon",
+      "title": "Хакатон: работа в командах без трансляции и записи",
+      "speakers": null,
+      "day": "2026-11-21",
+      "starts_at": "10:30",
+      "ends_at": "13:30",
+      "room_id": null,
+      "topic_ids": [
+        "hackathon-ai"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150096",
+      "kind": "talk",
+      "title": "Spec-Driven Development начинается с аналитика: как мы построили сквозной AI-процесс разработки",
+      "speakers": "Иван Поддубный",
+      "day": "2026-11-21",
+      "starts_at": "10:30",
+      "ends_at": "11:10",
+      "room_id": "A",
+      "topic_ids": [
+        "3436"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151077",
+      "kind": "talk",
+      "title": "Вам принесли ИИ-агента, который отвечает на вопросы по данным. Как понять, что ему можно доверять?",
+      "speakers": "Дмитрий Ширшов, Эрик Варапаев",
+      "day": "2026-11-21",
+      "starts_at": "10:30",
+      "ends_at": "11:10",
+      "room_id": "B",
+      "topic_ids": [
+        "ai"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150083",
+      "kind": "talk",
+      "title": "Софт-скиллы при работе с ИИ. Без них никак",
+      "speakers": "Наталья Должкевич",
+      "day": "2026-11-21",
+      "starts_at": "10:30",
+      "ends_at": "11:10",
+      "room_id": "C",
+      "topic_ids": [
+        "3426"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150244",
+      "kind": "blitz",
+      "title": "Аналитик потоков: «Путеводитель по кругам общения ETL-аналитика»",
+      "speakers": "Алина Четверикова",
+      "day": "2026-11-21",
+      "starts_at": "10:30",
+      "ends_at": "10:50",
+      "room_id": "D",
+      "topic_ids": [
+        "3433"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150917",
+      "kind": "blitz",
+      "title": "Минус 60% времени на ревью: ИИ-помощник наставника младших аналитиков",
+      "speakers": "Наталья Ромашкина",
+      "day": "2026-11-21",
+      "starts_at": "10:50",
+      "ends_at": "11:10",
+      "room_id": "D",
+      "topic_ids": [
+        "3429"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-21-1110-all",
+      "kind": "service",
+      "title": "Интерактив \"Судный день LLM\" в секции B || Перерыв",
+      "speakers": null,
+      "day": "2026-11-21",
+      "starts_at": "11:10",
+      "ends_at": "11:40",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151108",
+      "kind": "discussion",
+      "title": "Панельная дискуссия: Выжившие после ИИ",
+      "speakers": "Дмитрий Безуглый, Екатерина Тихомирова, Дмитрий Неверов, Татьяна Маркина, Тарас Шевченко, Иван Поддубный",
+      "day": "2026-11-21",
+      "starts_at": "11:40",
+      "ends_at": "12:20",
+      "room_id": "A",
+      "topic_ids": [
+        "3432"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151162",
+      "kind": "talk",
+      "title": "Выбор (и перевыбор) модели для построения ИИ-агента",
+      "speakers": "Евгений Виноградов",
+      "day": "2026-11-21",
+      "starts_at": "11:40",
+      "ends_at": "12:20",
+      "room_id": "B",
+      "topic_ids": [
+        "ai"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151116",
+      "kind": "blitz",
+      "title": "Анатомия лидера аналитиков: баланс между хард-экспертизой, психотерапией и бизнесом",
+      "speakers": "Ирина Гертовская",
+      "day": "2026-11-21",
+      "starts_at": "11:40",
+      "ends_at": "12:00",
+      "room_id": "C",
+      "topic_ids": [
+        "3431"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151150",
+      "kind": "talk",
+      "title": "Артефакты и инструменты системного аналитика для фиксации \"незнания\"",
+      "speakers": "Ольга Беспалова",
+      "day": "2026-11-21",
+      "starts_at": "11:40",
+      "ends_at": "12:20",
+      "room_id": "D",
+      "topic_ids": [
+        "3436"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151105",
+      "kind": "blitz",
+      "title": "Сборщик контекста",
+      "speakers": "Руслан Канзепаров",
+      "day": "2026-11-21",
+      "starts_at": "12:00",
+      "ends_at": "12:20",
+      "room_id": "C",
+      "topic_ids": [
+        "3429"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-21-1220-all",
+      "kind": "service",
+      "title": "Разминка с тренером в секции B || Перерыв",
+      "speakers": null,
+      "day": "2026-11-21",
+      "starts_at": "12:20",
+      "ends_at": "12:50",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151108-2",
+      "kind": "discussion",
+      "title": "Панельная дискуссия: Выжившие после ИИ",
+      "speakers": "Дмитрий Безуглый, Екатерина Тихомирова, Дмитрий Неверов, Татьяна Маркина, Тарас Шевченко, Иван Поддубный",
+      "day": "2026-11-21",
+      "starts_at": "12:50",
+      "ends_at": "13:30",
+      "room_id": "A",
+      "topic_ids": [
+        "3432"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151120",
+      "kind": "talk",
+      "title": "Каскад погрешностей: как подружить бизнес-метрики и машинное обучение, чтобы никто не пострадал",
+      "speakers": "Гульсина Захарова",
+      "day": "2026-11-21",
+      "starts_at": "12:50",
+      "ends_at": "13:30",
+      "room_id": "B",
+      "topic_ids": [
+        "ai"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150106",
+      "kind": "talk",
+      "title": "Оптимизация: идея, ошибки и аналитик",
+      "speakers": "Анна Алимбекова",
+      "day": "2026-11-21",
+      "starts_at": "12:50",
+      "ends_at": "13:30",
+      "room_id": "C",
+      "topic_ids": [
+        "3428"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-21-1250-D",
+      "kind": "break",
+      "title": "Обед. 1-я смена",
+      "speakers": null,
+      "day": "2026-11-21",
+      "starts_at": "12:50",
+      "ends_at": "13:30",
+      "room_id": "D",
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-21-1330-all",
+      "kind": "break",
+      "title": "Перерыв",
+      "speakers": null,
+      "day": "2026-11-21",
+      "starts_at": "13:30",
+      "ends_at": "14:00",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-21-1400-all",
+      "kind": "break",
+      "title": "Обед. 2-я смена",
+      "speakers": null,
+      "day": "2026-11-21",
+      "starts_at": "14:00",
+      "ends_at": "14:40",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-21-1400-h",
+      "kind": "hackathon",
+      "title": "Хакатон: оценка результатов без трансляции и записи",
+      "speakers": null,
+      "day": "2026-11-21",
+      "starts_at": "14:00",
+      "ends_at": "15:50",
+      "room_id": null,
+      "topic_ids": [
+        "hackathon-ai"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151095",
+      "kind": "talk",
+      "title": "Подводные камни масштабирования ИИ-функций: риски и операционные затраты",
+      "speakers": "Олеся Пахомова",
+      "day": "2026-11-21",
+      "starts_at": "14:00",
+      "ends_at": "14:40",
+      "room_id": "B",
+      "topic_ids": [
+        "ai"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151011",
+      "kind": "blitz",
+      "title": "До требований: как понять, стоит ли вообще делать фичу",
+      "speakers": "Ольга Пономарева",
+      "day": "2026-11-21",
+      "starts_at": "14:00",
+      "ends_at": "14:20",
+      "room_id": "D",
+      "topic_ids": [
+        "3428"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150079",
+      "kind": "blitz",
+      "title": "От реактивного к проактивному: трансформация подхода к решению проблем в IT",
+      "speakers": "Кирилл Прокопенко",
+      "day": "2026-11-21",
+      "starts_at": "14:20",
+      "ends_at": "14:40",
+      "room_id": "D",
+      "topic_ids": [
+        "3432"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-21-1440-all",
+      "kind": "break",
+      "title": "Перерыв",
+      "speakers": null,
+      "day": "2026-11-21",
+      "starts_at": "14:40",
+      "ends_at": "15:10",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151122",
+      "kind": "discussion",
+      "title": "Судный день LLM",
+      "speakers": "Татьяна Половинкина",
+      "day": "2026-11-21",
+      "starts_at": "15:10",
+      "ends_at": "15:50",
+      "room_id": "A",
+      "topic_ids": [
+        "ai"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150916",
+      "kind": "talk",
+      "title": "Насколько глубоко копать? Как сценарии использования влияют на миграцию данных",
+      "speakers": "Юлия Литвинюк",
+      "day": "2026-11-21",
+      "starts_at": "15:10",
+      "ends_at": "15:50",
+      "room_id": "B",
+      "topic_ids": [
+        "3433"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-152319",
+      "kind": "talk",
+      "title": "Как сказать «нет» функции, но «да» заказчику: дипломатия при жестких дедлайнах",
+      "speakers": "Ольга Нагаева",
+      "day": "2026-11-21",
+      "starts_at": "15:10",
+      "ends_at": "15:50",
+      "room_id": "C",
+      "topic_ids": [
+        "3437"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150301",
+      "kind": "talk",
+      "title": "Надёжная платформа для вайбкодинга: верификация интерфейсов AI-агентами «на полную катушку»",
+      "speakers": "Александр Сербул",
+      "day": "2026-11-21",
+      "starts_at": "15:10",
+      "ends_at": "15:50",
+      "room_id": "D",
+      "topic_ids": [
+        "ai"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-21-1550-all",
+      "kind": "break",
+      "title": "Кофе-пауза",
+      "speakers": null,
+      "day": "2026-11-21",
+      "starts_at": "15:50",
+      "ends_at": "16:30",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-21-1630-h",
+      "kind": "break",
+      "title": "Технический перерыв площадки хакатона",
+      "speakers": null,
+      "day": "2026-11-21",
+      "starts_at": "16:30",
+      "ends_at": "17:10",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150073",
+      "kind": "talk",
+      "title": "Методология проектирования ИИ-агентов в Enterprise",
+      "speakers": "Дмитрий Неверов",
+      "day": "2026-11-21",
+      "starts_at": "16:30",
+      "ends_at": "17:10",
+      "room_id": "A",
+      "topic_ids": [
+        "ai"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151071",
+      "kind": "talk",
+      "title": "Не RAG, а wiki в Git: как аналитики учат AI-агента работать с знаниями",
+      "speakers": "Вера Бонарева",
+      "day": "2026-11-21",
+      "starts_at": "16:30",
+      "ends_at": "17:10",
+      "room_id": "B",
+      "topic_ids": [
+        "ai"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151176",
+      "kind": "blitz",
+      "title": "Переходный возраст платформ: почему открытые форматы — это зрелость индустрии",
+      "speakers": "Юрий Земляков",
+      "day": "2026-11-21",
+      "starts_at": "16:30",
+      "ends_at": "16:50",
+      "room_id": "C",
+      "topic_ids": [
+        "3433"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151159",
+      "kind": "workshop",
+      "title": "Закладываем НФТ на этапе проектирования архитектуры",
+      "speakers": "Андрей Бураков",
+      "day": "2026-11-21",
+      "starts_at": "16:30",
+      "ends_at": "17:10",
+      "room_id": "D",
+      "topic_ids": [
+        "3427"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150470",
+      "kind": "blitz",
+      "title": "Оценка soft skills системного аналитика на техническом интервью",
+      "speakers": "Дмитрий Дашко",
+      "day": "2026-11-21",
+      "starts_at": "16:50",
+      "ends_at": "17:10",
+      "room_id": "C",
+      "topic_ids": [
+        "3430"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-21-1710-all",
+      "kind": "break",
+      "title": "Перерыв",
+      "speakers": null,
+      "day": "2026-11-21",
+      "starts_at": "17:10",
+      "ends_at": "17:40",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-21-1740-h",
+      "kind": "break",
+      "title": "Технический перерыв площадки хакатона",
+      "speakers": null,
+      "day": "2026-11-21",
+      "starts_at": "17:40",
+      "ends_at": "18:20",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-21-1740-A",
+      "kind": "hackathon",
+      "title": "Хакатон: демонстрация результатов, выводы",
+      "speakers": null,
+      "day": "2026-11-21",
+      "starts_at": "17:40",
+      "ends_at": "18:20",
+      "room_id": "A",
+      "topic_ids": [
+        "hackathon-ai"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151088",
+      "kind": "blitz",
+      "title": "AI первым бьёт по лучшим аналитикам",
+      "speakers": "Вячеслав Шириков",
+      "day": "2026-11-21",
+      "starts_at": "17:40",
+      "ends_at": "18:00",
+      "room_id": "B",
+      "topic_ids": [
+        "ai"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-150624",
+      "kind": "talk",
+      "title": "Системное управление - в работе, карьере и жизни",
+      "speakers": "Евгения Синицына",
+      "day": "2026-11-21",
+      "starts_at": "17:40",
+      "ends_at": "18:20",
+      "room_id": "C",
+      "topic_ids": [
+        "3431"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "talk-151159-2",
+      "kind": "workshop",
+      "title": "Закладываем НФТ на этапе проектирования архитектуры",
+      "speakers": "Андрей Бураков",
+      "day": "2026-11-21",
+      "starts_at": "17:40",
+      "ends_at": "18:20",
+      "room_id": "D",
+      "topic_ids": [
+        "3427"
+      ],
+      "previous_part_id": "talk-151159"
+    },
+    {
+      "id": "talk-150247",
+      "kind": "blitz",
+      "title": "AI-агент как коллега: как я делегирую агенту Kilo Code рутину системного аналитика",
+      "speakers": "Михаил Прасолов",
+      "day": "2026-11-21",
+      "starts_at": "18:00",
+      "ends_at": "18:20",
+      "room_id": "B",
+      "topic_ids": [
+        "ai"
+      ],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-21-1820-all",
+      "kind": "break",
+      "title": "Перерыв",
+      "speakers": null,
+      "day": "2026-11-21",
+      "starts_at": "18:20",
+      "ends_at": "18:30",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    },
+    {
+      "id": "event-21-1830-all",
+      "kind": "service",
+      "title": "Закрытие конференции, награждение докладчиков, розыгрыш призов. Секция А",
+      "speakers": null,
+      "day": "2026-11-21",
+      "starts_at": "18:30",
+      "ends_at": "19:00",
+      "room_id": null,
+      "topic_ids": [],
+      "previous_part_id": null
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+name: Deploy to Timeweb
+on:
+  workflow_dispatch:
+    inputs:
+      backend_sha:
+        description: Полный SHA опубликованного образа бэкенда
+        required: true
+        type: string
+      frontend_sha:
+        description: Полный SHA опубликованного образа фронтенда
+        required: true
+        type: string
+
+permissions:
+  contents: read
+concurrency:
+  group: ad23-timeweb
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: timeweb
+      url: https://ad23-track.89.23.100.193.nip.io:8445/
+    steps:
+      - name: Проверить опубликованные версии
+        env:
+          BACKEND_SHA: ${{ inputs.backend_sha }}
+          FRONTEND_SHA: ${{ inputs.frontend_sha }}
+        run: |
+          set -euo pipefail
+          for sha in "$BACKEND_SHA" "$FRONTEND_SHA"; do
+            [[ $sha =~ ^[0-9a-f]{40}$ ]] || exit 2
+          done
+          docker manifest inspect "ghcr.io/roman607/analyst-days-23-backend:$BACKEND_SHA" >/dev/null
+          docker manifest inspect "ghcr.io/roman607/analyst-days-23-frontend:$FRONTEND_SHA" >/dev/null
+          # shellcheck disable=SC2016
+          printf 'Backend `%s`\n\nFrontend `%s`\n' "$BACKEND_SHA" "$FRONTEND_SHA" >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.backend_sha }}
+          path: release-source
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@v7
+        with:
+          version: "0.11.6"
+      - name: Собрать SQLite для выбранной версии
+        working-directory: release-source
+        run: |
+          uv sync --locked --no-dev --python 3.14
+          uv run --locked --no-dev python -m app.program --output "$RUNNER_TEMP/program.sqlite3"
+      - name: Передать выпуск и перезапустить контейнеры
+        env:
+          TIMEWEB_SSH_KEY: ${{ secrets.TIMEWEB_SSH_KEY }}
+          TIMEWEB_KNOWN_HOSTS: ${{ secrets.TIMEWEB_KNOWN_HOSTS }}
+          BACKEND_SHA: ${{ inputs.backend_sha }}
+          FRONTEND_SHA: ${{ inputs.frontend_sha }}
+        run: |
+          set -euo pipefail
+          ssh_workspace=$(mktemp -d)
+          trap 'rm -r -- "$ssh_workspace"' EXIT
+          chmod 700 "$ssh_workspace"
+          printf '%s\n' "$TIMEWEB_SSH_KEY" > "$ssh_workspace/key"
+          printf '%s\n' "$TIMEWEB_KNOWN_HOSTS" > "$ssh_workspace/known_hosts"
+          chmod 600 "$ssh_workspace/key"
+          ssh_opts=(-i "$ssh_workspace/key" -o "UserKnownHostsFile=$ssh_workspace/known_hosts"
+                    -o StrictHostKeyChecking=yes -o BatchMode=yes -o IdentitiesOnly=yes)
+          host=root@89.23.100.193
+          release="/opt/ad23-track/releases/$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+          # shellcheck disable=SC2029
+          ssh "${ssh_opts[@]}" "$host" "install -d -m 755 '$release'"
+          scp "${ssh_opts[@]}" compose.yaml deploy/nginx.conf deploy/release.sh "$RUNNER_TEMP/program.sqlite3" "$host:$release/"
+          # shellcheck disable=SC2029
+          ssh "${ssh_opts[@]}" "$host" "cd '$release' && bash release.sh '$BACKEND_SHA' '$FRONTEND_SHA'"
+      - name: Проверить публичный HTTPS после перезапуска
+        run: python3 deploy/smoke.py https://ad23-track.89.23.100.193.nip.io:8445
