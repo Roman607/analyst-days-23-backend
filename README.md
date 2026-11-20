@@ -46,6 +46,8 @@ gh run watch ID_ЗАПУСКА --exit-status
 
 ## Приёмка Swagger
 
+[Сайт на Timeweb](https://ad23-track.89.23.100.193.nip.io:8445/) · [Публичный Swagger UI](https://ad23-track.89.23.100.193.nip.io:8445/api/docs)
+
 1. Откройте `/api/docs` и вызовите `GET /api/program` через **Try it out**. Скопируйте `revision` и ID темы «ИИ».
 2. В `POST /api/trajectory/preview` передайте версию, тему и `actions: []`. На 21 ноября в 16:30 результат включает Неверова (A) и Бонареву (B) как варианты.
 3. Добавьте `choose` для ID Бонаревой из программы. В интервале остаётся зал B. Удалите `revision` из запроса и проверьте `422 invalid_request`.
